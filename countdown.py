@@ -23,6 +23,7 @@ def main():
             print(HELP)
         elif sys.argv[1] == "-p":
             playsound("red sun in the sky.mp3")
+        # TODO
     except KeyboardInterrupt:
         print("Kilépés")
 
